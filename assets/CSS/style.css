@@ -87,5 +87,16 @@ section {
     
   } 
   
-  
+  .contact-me li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    display: inline;
+    text-decoration: underline;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-style: italic;
+  }
   
