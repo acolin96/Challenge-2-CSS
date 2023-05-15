@@ -101,8 +101,12 @@ section {
     color: black;
     text-align: center;
     font-style: italic;
-    border-left: 3px solid black;
+    /* border-left: 3px solid black; */
     padding-left: 140px; 
   }  
 
-  
+ .border-left{
+    border-left: 3px solid black;
+    padding-left: 485px;
+    
+ } 
