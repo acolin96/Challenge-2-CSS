@@ -10,6 +10,15 @@ h1{
     color: white;
 }
 
+h2 {
+  font-size: 50px;
+    flex-wrap: wrap;
+    color: rgb(55, 55, 55);
+    width: 300px;
+    height: 100px;
+    border-right: 3px solid;
+}
+
 body{
     background-color: rgb(146, 194, 233);
 }
@@ -44,7 +53,6 @@ header{
     padding: 10px;
     width: 100px;
   }
-  
 
  
 
@@ -71,6 +79,7 @@ nav li{
 }
 
 section {
+    display: flex;
     width: 75%;
     margin-left: 100px;
     margin-right: 500px;
@@ -81,14 +90,34 @@ section {
     
   }
   
+
+  .writing-image img {
+    height: 100px;
+    /* padding-right: 800px; */
+    margin-right: 900px;
+  }
+
+   .writing-image img:hover {
+    opacity: 0.5;
+  } 
+
    p {
-    width: 75%; 
+    color: #3a3a38;
+    font-style: normal;
+    font-weight: normal;
+    font-family: sans-serif;
+    width: 75%;
+    font-size: 24px;
     text-align: left;
-    border-left: 3px solid black;
-    padding-left: 140px; 
+    padding-left: 75px;
+
+    /* width: 75%; 
+    text-align: left;
+     border-left: 3px solid black; 
+    padding-left: 140px;  */
      
     
-  } 
+  }  
   
     .contact-me li{
     display: inline-block;
@@ -105,8 +134,34 @@ section {
     padding-left: 140px; 
   }  
 
- .border-left{
-    border-left: 3px solid black;
-    padding-left: 485px;
+    .border-left{
+    /* border-left: 3px solid black; */
+    padding-left: 385px;
     
- } 
+
+    
+ }   
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 992px) {
+  
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  
+}
