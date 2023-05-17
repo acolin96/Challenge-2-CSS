@@ -5,3 +5,6 @@ We were told to make a portfolioi showcasing what you have learned in HTML and C
 
 ## Links
 
+https://github.com/acolin96/Challenge-2-CSS
+
+https://acolin96.github.io/Challenge-2-CSS/
